@@ -1,15 +1,6 @@
-[tool.poetry]
-name = "filterFS"
-version = "0.0.1"
-description = "pacote que modifica imagens rgb para canais de imagens LUV, aplica os filtros gray, gaussiano, clahe, equalização de histograma e bordas de objetos nas imagens em uma determianda pasta com N imagens."
-authors = ["saul_rocha <saul.rocha2001@gmail.com>", "filipe_mts <filipemts@ufpi.edu.br>"]
-
-[tool.poetry.dependencies]
-python = "^3.8"
-
-[tool.poetry.dev-dependencies]
-pytest = "^5.2"
-
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"

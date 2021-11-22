@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+filterfs.egg-info/PKG-INFO
+filterfs.egg-info/SOURCES.txt
+filterfs.egg-info/dependency_links.txt
+filterfs.egg-info/requires.txt
+filterfs.egg-info/top_level.txt
+src/filterFS.py

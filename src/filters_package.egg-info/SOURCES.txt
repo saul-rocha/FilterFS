@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/filters_package/__init__.py
+src/filters_package/filtersFS.py
+src/filters_package.egg-info/PKG-INFO
+src/filters_package.egg-info/SOURCES.txt
+src/filters_package.egg-info/dependency_links.txt
+src/filters_package.egg-info/top_level.txt

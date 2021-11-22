@@ -144,7 +144,7 @@ class Filters():
         for i in images_all:
             image = imread(i)
             output = self.rename_file(i)
-            image = cv2.GaussianBlur(image,( 3, 3 ),sigmaradius = sigmaradius)
+            image = cv2.GaussianBlur(image,( 3, 3 ), sigmaradius)
             images_transform.append(image)
             folder_aux = folder + '\\Gaussiano_' + output
             print(folder_aux)
